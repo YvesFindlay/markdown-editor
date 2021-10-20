@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-// import { OutputTitle } from "./Title";
 import styled from "styled-components";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -18,14 +17,14 @@ const ResultArea = styled.div`
   width: 100%;
   height: 100%;
   border: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  word-break: break-all;
 `;
 
 export const Result = () => {
   const { markdownText } = useContext(markdownEditorContext);
   return (
     <OutputContainer>
-      {/* <OutputTitle>Output</OutputTitle> */}
       <ResultArea>
         <ReactMarkdown children={markdownText} remarkPlugins={[remarkGfm]} />
       </ResultArea>
