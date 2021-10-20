@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 // import { OutputTitle } from "./Title";
 import styled from "styled-components";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import markdownEditorContext from "../Store/markdownEditorContext";
 
 const OutputContainer = styled.div`
@@ -10,7 +11,7 @@ const OutputContainer = styled.div`
   box-sizing: border-box;
   color: #323232;
   background-color: #ececec;
-  padding: 0 2rem;
+  padding: 1rem 2rem 0;
 `;
 
 const ResultArea = styled.div`
@@ -18,7 +19,6 @@ const ResultArea = styled.div`
   height: 100%;
   border: none;
   font-size: 1rem;
-  padding-top: 1rem;
 `;
 
 export const Result = () => {
@@ -27,7 +27,7 @@ export const Result = () => {
     <OutputContainer>
       {/* <OutputTitle>Output</OutputTitle> */}
       <ResultArea>
-        <ReactMarkdown style={{ paddingTop: "1rem" }} children={markdownText} />
+        <ReactMarkdown children={markdownText} remarkPlugins={[remarkGfm]} />
       </ResultArea>
     </OutputContainer>
   );
