@@ -17,7 +17,8 @@ const TextArea = styled.textarea`
   outline: none;
   font-size: 1rem;
   background-color: #f6f6f6;
-  padding: 1rem 2rem 0;
+  padding: 1.5rem 2rem 0;
+  overflow-y: scroll;
 `;
 
 export const MarkdownInput = () => {
