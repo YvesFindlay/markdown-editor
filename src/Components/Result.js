@@ -10,7 +10,8 @@ const OutputContainer = styled.div`
   box-sizing: border-box;
   color: #323232;
   background-color: #ececec;
-  padding: 1rem 2rem 0;
+  padding: 2.5rem 2rem 0;
+  overflow-y: scroll;
 `;
 
 const ResultArea = styled.div`
