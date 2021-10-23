@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Title from "./Components/Title";
 import { MarkdownInput } from "./Components/MarkdownInput";
 import { Result } from "./Components/Result";
 import markdownEditorContext from "./Store/markdownEditorContext";
