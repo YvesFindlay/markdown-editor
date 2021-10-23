@@ -1,6 +1,6 @@
 # Markdown editor
 
-This project is an emulation of minified markdown editor built in React. This project uses the context api as it's component-wide state management tool. The context api tracks and updates the changes to the input and renders the subsequent output.
+This project is an emulation of minified markdown editor built in React. This project uses the context api as its component-wide state management tool. The context api tracks and updates the changes to the input and renders the subsequent output.
 
 ## Functionality
 
