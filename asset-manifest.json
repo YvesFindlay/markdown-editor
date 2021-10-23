@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/YvesFindlay/markdown-editor/static/css/main.3c671cd5.chunk.css",
+    "main.js": "/YvesFindlay/markdown-editor/static/js/main.784698dd.chunk.js",
+    "main.js.map": "/YvesFindlay/markdown-editor/static/js/main.784698dd.chunk.js.map",
+    "runtime-main.js": "/YvesFindlay/markdown-editor/static/js/runtime-main.d3ae244f.js",
+    "runtime-main.js.map": "/YvesFindlay/markdown-editor/static/js/runtime-main.d3ae244f.js.map",
+    "static/js/2.c5c91915.chunk.js": "/YvesFindlay/markdown-editor/static/js/2.c5c91915.chunk.js",
+    "static/js/2.c5c91915.chunk.js.map": "/YvesFindlay/markdown-editor/static/js/2.c5c91915.chunk.js.map",
+    "index.html": "/YvesFindlay/markdown-editor/index.html",
+    "static/css/main.3c671cd5.chunk.css.map": "/YvesFindlay/markdown-editor/static/css/main.3c671cd5.chunk.css.map",
+    "static/js/2.c5c91915.chunk.js.LICENSE.txt": "/YvesFindlay/markdown-editor/static/js/2.c5c91915.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3ae244f.js",
+    "static/js/2.c5c91915.chunk.js",
+    "static/css/main.3c671cd5.chunk.css",
+    "static/js/main.784698dd.chunk.js"
+  ]
+}
